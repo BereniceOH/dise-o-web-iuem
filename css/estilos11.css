@@ -1,0 +1,169 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family:'Open Sans Condensed';
+	background-image: url(../img/18.jpg);
+	background-size: cover;
+	background-attachment: fixed; /*Queda fija la imagen*/
+}
+
+/*particulas*/
+.contenedor{
+	width: 90%;
+	height: 100px;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+	margin-right: auto ;
+	margin-left: auto;
+	margin-top: 15px;
+	padding: 20px 30px;
+	position: relative;
+	z-index: 99;
+	opacity: 0.8;
+
+}
+header {
+	position: relative;
+	height: auto;
+
+}
+
+header .menu{
+	background: rgba(0, 0, 0, 0.7);
+	overflow: hidden;
+
+}
+header .logo{
+	color: rgba(254, 254, 254, 0.8);
+	float: left;
+	font-size: 2px;
+	line-height: 3px;
+	color: white;
+	font-size: 40px;
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul{
+	list-style: none;
+}
+
+header nav ul li{
+	float: left;
+}
+header nav ul li a{
+	color: rgba(242, 243, 244, 0.7);
+	text-decoration: none;
+	display: block;
+	font-size: 21px;
+	padding: 0 25px;
+	line-height: 70px; /*el tamaño de altura del nav*/
+}
+
+header nav ul li:hover{
+		color: rgba(254, 254, 254, 0.8);
+}
+
+
+header nav ul li a:hover{
+	color: #ffffff;
+	font-weight: 600;
+
+}
+
+.texto{
+	color: rebeccapurple;
+	padding: 200px  0;
+	text-align: center;
+	font-weight: 800;
+	color: #FFFFFF;
+	text-shadow: 4px 3px 0px #7A7A7A;
+}
+
+.texto h2, .texto p{
+	display: inline-block;
+	padding: 5px 20px;
+}
+.texto h2{
+	font-size: 50px;
+	letter-spacing: 2px;
+
+}
+
+.texto p{
+	font-size: 30px;
+	letter-spacing: 2px;
+
+}
+.principal{
+	position: relative;
+	color: black;
+
+}
+.principal article{
+	padding: 20px;
+	background: #ffffff;
+	margin-bottom: 15px;
+
+}
+
+.principal article p{
+	margin-bottom: 20px;
+	line-height: 24px;
+}
+.principal article .fecha{
+color: #93930247;
+}
+.social-links{
+	list-style: none;
+}
+
+.social-links ul{
+	padding: 10px;
+	width: 300px;
+	height: 30ps;
+	margin: auto;
+	display: flex;
+}
+.social-items{
+	list-style: none;
+}
+
+.social-items a{
+	padding: 10px 19px;
+	font-size: 35px;
+	color:#ffffff;
+	transition: all 250ms;
+	align-items: center;
+}
+
+.social-items a:hover{
+	color: blue;
+}
+
+.social-links{
+	color: white;
+	display: flex;
+}
+
+.outer-footer{
+	margin-top: 35px;
+	top: 25px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	background-color: black;
+
+}
+
+.outer-footer a{
+color: white;
+text-decoration: none;
+}

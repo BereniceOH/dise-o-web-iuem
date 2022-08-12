@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: darkgreen;
+	font-family: Arial;
+}
+
+.title_body h1{
+	text-align: center;
+	font-size: 35px;
+	margin: 15 0px 10px;
+	color: white;
+	text-shadow: 0px 0px 10px #fff;
+}
+.title_body h4{
+	text-align: center;
+	font-size: 13px;
+	margin: 15 0px 60px;
+	color: white;
+	text-shadow: 0px 0px 10px #fff;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+	height: 80vh;/*vh= ventana horizontal*/
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.tabla {
+	width: 35%;
+	height: 550px;
+	margin: auto;
+	border:  1px sol #A93226;
+	border-radius: 4px;
+	box-shadow: 0px 0px 4px 0px #343759;
+	padding: 60px;
+	text-align: center;
+	flex-grow: 1;
+	color: #343759;
+
+}
+
+.tabla>h2{
+	font-size: 30px;
+	margin-top: 35px;
+}
+
+.tabla img{
+width: 50px;
+height: 150px;
+margin-top: 35px;
+}
+
+.tabla > h3{
+	font-size: 30px;
+	border-bottom: 20px;
+}
+
+.tabla > p{
+	display: block;
+	border-bottom: 20px;
+}
+
+.boton {
+	display: inline-block;
+	width: 150px;
+	padding: 12px;
+	background: blue;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 500;
+	margin: auto;
+}

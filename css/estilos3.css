@@ -1,0 +1,243 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+img { 
+	height: 100%;
+	width:100%;
+
+}
+
+.imagenes{
+	width: 85%;
+	max-width: 1400px;
+	margin: auto;
+}
+
+.imagenes h1 {
+	text-align: center;
+	font-size: 35px;
+	margin: 15px 0px 60px;
+	color: #F1C40F;
+	text-shadow: 0px 0px 20px #000000;
+}
+
+.imagenes-imagenes-item{
+	width: 30%;
+	position: relative;
+	overflow: hidden;
+
+}
+.imagenes-container {
+	display:flex;
+	justify-content:space-between;
+}
+
+.imagenes-text{
+	position:absolute;
+	bottom: 0;
+	padding: 15px;
+	background: rgba(0, 0, 0, 0.6);
+	color:white;
+	transform:translateY(100%);
+	transition: all 0.6s ease-out;
+}
+
+.imagenes-text p{
+	text-align:justify;
+}
+
+.imagenes-item:hover .imagenes-text{
+	transform:translateY(0%);
+	transition:all 500ms;
+	cursor:pointer;
+
+}
+
+.imagenes-item img:hover{
+	transform:scale(1.4);
+	transition:all 500ms;
+	cursor:pointer;
+}
+
+.info-container{
+	width: 100%;
+	background:#D0ECE7;
+	color: black;
+font-family: 'Castoro', serif;
+}
+
+.info-main{
+	max-width: 1000px;
+	width: 97%;
+	margin: auto;
+	text-align: center;
+	padding: 30px 200px;
+}
+
+.info-main h3{
+	text-shadow: 0px 0px 10px #FFFFFF;
+	font-size: 30px;
+	text-align: center;
+}
+
+.info-container a{
+	display: inline-block;
+	text-shadow: 0px 0px 10px #white;
+	color: white;
+	text-decoration: none;
+	padding: 8px 20px;
+	background: #212F2D;
+}
+
+/*Estilos del pie de página*/
+footer{
+	width: 100%;
+	font-family: ´Castoro´,serif;
+}
+
+.footer-container{
+	width: 100%;
+	background: #212F30;
+	color: white;
+}
+
+.footer-main{
+	max-width: 100%;
+	width: 97%;
+	margin: auto;
+	display: flex;
+	padding: 41px 0;
+	/*-flex-wrap: wrap;  pendiente*/
+}
+
+.footer-main .footer-columna{
+	width: calc(100% / 3);
+	text-align: justify;
+}
+
+.footer-main .footer-columna:nth-child(2){
+	padding: 0px 30px;
+}
+
+.footer-main .footer-columna h4{
+	font-size: 27px;
+	text-shadow: 0px 0px 10px #ffffff;
+}
+
+.footer-main .footer-columna input[type="email"]{
+	border: none;
+	width: 90%;
+	border: 2px solid #5C9EAF;
+}
+
+.footer-main .footer-columna input[type="submit"]{
+	border: none;
+	background: #5C9EAF;
+	color: white;
+	margin-top: 10px;
+	padding: 10px 30px;
+	font-size: 20px;
+	cursor: pointer;
+	font-family: ´Castoro´,serif;
+}
+
+.footer-main .footer-columna p{
+	display: inline-block;
+	margin-left: 5px;
+	font-size: 17px;
+	font-family:´Castoro´, serif;
+}
+
+.parrafo {
+	font-size: 25px;
+font-family:´Castoro´, serif;
+
+}
+
+.footer-copy-redes{
+	width: 100%;
+	background: #212F3D;
+	border-top: 4px solid white;
+}
+.main-copy-redes{
+	width: 97%;
+	max-width: 100px;
+	padding: 15px 0;
+
+
+	flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+color: white;
+}
+.main-copy-redes .footer-copy {
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+.main-copy-redes .footer-redes {
+	width: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.footer-redes a{
+	display: inline-block;
+	text-decoration: none;
+	width: ;
+}
+header {
+	position: relative;
+	height: auto;
+
+}
+
+header .menu{
+	background: rgba(0, 0, 0, 0.7);
+	overflow: hidden;
+
+}
+header .logo{
+	color: rgba(254, 254, 254, 0.8);
+	float: left;
+	font-size: 2px;
+	line-height: 3px;
+	color: white;
+	font-size: 40px;
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul{
+	list-style: none;
+}
+
+header nav ul li{
+	float: left;
+}
+header nav ul li a{
+	color: rgba(242, 243, 244, 0.7);
+	text-decoration: none;
+	display: block;
+	font-size: 21px;
+	padding: 0 25px;
+	line-height: 70px; /*el tamaño de altura del nav*/
+}
+
+header nav ul li:hover{
+		color: rgba(254, 254, 254, 0.8);
+}
+
+
+header nav ul li a:hover{
+	color: #ffffff;
+	font-weight: 600;
+
+}

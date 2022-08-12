@@ -1,0 +1,29 @@
+
+body{
+	background: blue;
+	font-family: 'Roboto Slab', serif;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	background: #F6F9B4;
+	color:#111FES;
+	text-align: center;
+	height: 200px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+body{
+	font-size: 63px;
+	background: blue;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+font-family: 'Roboto Slab', serif;
